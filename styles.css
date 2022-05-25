@@ -1,0 +1,115 @@
+.menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(38, 27, 48);
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+
+body{
+    margin: 0px;
+    background-color:#8AA3EA;
+   
+}
+a{
+    text-decoration :none
+}
+a:link{
+    color:#ffffff;
+}
+
+/*a:old*/
+/*a:clicked*/
+/*a:seen{*/
+a:visited{
+    color: #ffffff;
+}
+
+.bodyimg{
+    position: absolute + 100;
+
+}
+.bodyimg p{
+    color:#ffffff;
+    font-size: 55px;
+    font-family: fantasy;
+    position: absolute ;
+    top:15%;
+    left:56%;
+    transform: translate(-50%,-50%);
+    width:1000px;
+}
+.bodyimg h3{
+    color:#ffffff;
+    font-family: fantasy;
+    font-size: 30px;
+    width: 1200px;
+    position: absolute ;
+    top:40%;
+    left:43%;
+    transform: translate(-40%, -40%);
+    padding: 100px;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 90px;
+    font-family: sans-serif;
+    
+}
+.grid img{
+    border: 2px solid rgb(114, 122, 211);
+    border-radius: 50px;
+}
+.origami {
+    
+    border-radius: 20px;
+    background-color: #b8c7f8;
+    padding: 30px;
+    margin: 25px;
+    width:310px;
+    font-family: fantasy;
+    color:#422c58;
+}
+
+ .origami:hover{ 
+/*.origami : mouseover{*/
+/*.origami:link{*/
+/*origami:hover{*/
+
+    transform: scale(1.15);
+}
+
+.Question p{
+    color:#ffffff;
+    font-size: 55px;
+    font-family: fantasy;
+    position: absolute ;
+    top:15%;
+    left:56%;
+    transform: translate(-50%,-50%);
+    width:1000px;
+}
+
+.Question h3 {
+    color:#ffffff;
+    font-family: fantasy;
+    font-size: 30px;
+    width: 1200px;
+    position: absolute ;
+    top:40%;
+    left:43%;
+    transform: translate(-40%, -40%);
+    padding: 100px;
+}
+
+.buttons{
+    border: 2px solid rgb(114, 122, 211);
+    border-radius: 50px;
+    position: absolute;
+    top: 450px; left: 400px;
+}
